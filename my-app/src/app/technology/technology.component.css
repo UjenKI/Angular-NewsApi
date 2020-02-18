@@ -1,0 +1,14 @@
+.card-block{
+    background: #232323;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 1%;
+}
+.card-item{
+    padding: 15px;
+    color: #fff;
+}
+.card-item hr{
+    /* width: 33%; */
+    background: #fff;
+}

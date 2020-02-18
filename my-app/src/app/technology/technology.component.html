@@ -6,10 +6,11 @@
     </div>
     <div class="row">
         <div class="col-md-6" *ngFor="let apiData of data">
-            <a [href]="apiData.url" [ngStyle]="{'display':'block','width':'100%'}">
+            <a class="card-block" [href]="apiData.url" [ngStyle]="{'display':'block','width':'100%'}">
                 <img [src]="apiData.urlToImage" alt="" [ngStyle]="{'width':'100%'}">
                 <div class="card-item">
                     <span>{{apiData.source.name}}</span>
+                    <hr />
                     <span>{{apiData.author}}</span>
                     <h3>{{apiData.title}}</h3>
                     <p>{{apiData.description}}</p>

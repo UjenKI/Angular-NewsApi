@@ -1,3 +1,10 @@
+header{
+    background: #232323;
+}
+.logo-block h1{
+    color: #fff;
+    font-size: 30px;
+}
 nav{
     display: block;
     text-align: center;
